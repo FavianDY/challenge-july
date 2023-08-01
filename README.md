@@ -9,6 +9,6 @@ Pada Challenge Roadmap akhir Juli membuat sebuah website landing page dengan per
 # Tentang Website
 Pada challenge kali ini saya membuat sebuah website mengenai diri saya/portofolio. Website dibagi menjadi beberapa bagian seperti Header, Main dan Footer.
 # Header
-Pada bagian header terdapat 3 content yaitu, home, navigasi dan menu button.
+Pada bagian header terdapat 3 content yaitu, home, navigasi dan menu button. <br>
 Pada bagian home terdapat logo home yang berfungsi untuk mengarahkan user ke bagian pertama dari website.
 Pada bagian navigasi terdapat beberapa navigasi seperti Tentang, Pendidikan, Visi & Misi dan Pengalaman. Ini mengarah ke beberapa section.
