@@ -1,0 +1,237 @@
+/* RESPONSIF */
+@media screen and (max-width: 1525px) {
+    .profile {
+        width: 300px;
+        height: 300px;
+    }
+}
+@media screen and (max-width: 1400px) {
+    h1, h2 {
+        font-size: 48px;
+    }
+}
+@media screen and (max-width: 1220px) {
+    .profile {
+        width: 200px;
+        height: 200px;
+    }
+    .img-email {
+        width: 30px;
+        height: 30px;
+    }
+}
+@media screen and (max-width: 1100px) {
+    h1 {
+        font-size: 36px;
+        line-height: 36px;
+    }
+}
+@media screen and (max-width: 915px) {
+    h1 {
+        font-size: 28px;
+    }
+    h2 {
+        font-size: 36px;
+        line-height: 36px;
+    }
+    h4 {
+        font-size: 20px;
+        line-height: 20px;
+    }
+    p, h5, li, a {
+        font-size: 14px;
+        line-height: 14px;
+    }
+    .visimisi-center {
+        width: 180px;
+    }
+}
+@media screen and (max-width: 876px) {
+    .intro {
+        flex-direction: column;
+    }
+    .intro-h {
+        text-align: center;
+    }
+    .intro-p {
+        text-align: center;
+    }
+    .intro-bg {
+        padding: 80px 0;
+    }
+    .ul-nav {
+        padding: 100px 0;
+        z-index: -1;
+        flex-direction: column;
+        position: fixed;
+        justify-content: center;
+        align-items: center;
+        top: -100%;
+        left: -10px;
+        background-color: #ffffff;
+        justify-content: center;
+        transition: 0.8s;
+        width: 100%;
+    }
+    .ul-nav.active {
+        top: 0;
+        width: 110%;
+        box-shadow: 0 4px 15px -5px rgba(58, 53, 65, 0.267);
+    }
+    .li-nav:hover {
+        background-color: #e4e4e4;
+        transition: all 600ms;
+        box-sizing: border-box;
+    }
+    .a-nav:hover {
+        border: none;
+    }
+    .li-nav {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    .menu-toggle {
+        display: flex;
+    }
+    .footer-content {
+        flex-direction: column;
+        gap: 60px;
+    }
+    .contact {
+        width: 100%;
+    }
+    .social-media {
+        width: 100%;
+        gap: 80px;
+    }
+    .social-main {
+        justify-content: space-around;
+    }
+    
+}
+@media screen and (max-width: 768px) {
+    .footer-content {
+        padding: 40px 60px;
+    }
+    .exp-main {
+        grid-template-columns: none;
+        grid-template-rows: auto;
+        gap: 40px;
+    }
+    .about-nd {
+        grid-template-rows: auto;
+        grid-template-columns: none;
+    }
+    .born-img,
+    .address-img,
+    .hobby-img,
+    .interest-img {
+        width: 80px;
+        height: 80px;
+    }
+}
+@media screen and (max-width: 620px) {
+    .img-sd, .img-smp, .img-smk {
+        width: 60px;
+        height: 60px;
+    }
+    .visimisi-center {
+        display: none;
+    }
+    .box3 {
+        flex-direction: column;
+    }
+    .visi, .misi {
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 543px) {
+    .img-sd, .img-smp, .img-smk {
+        width: 60px;
+        height: 60px;
+    }
+    .profile {
+        width: 150px;
+        height: 150px;
+    }
+    .about {
+        width: 100%;
+        height: max-content;
+    }
+    .img-intro {
+        padding: 10px;
+    }
+    .box1 {
+        padding: 20px 40px;
+    }
+    .box2 {
+        width: 100%;
+        padding: 40px 20px;
+    }
+    .intro-bg {
+        padding: 0;
+    }
+    .sd, .smp, .smk {
+        padding: 40px;
+    }
+    .text-sd, .text.smp, .text-smk {
+        row-gap: 5px;
+    }
+    .box4 {
+        width: 100%;
+    }
+    .img-social {
+        width: 30px;
+        height: 30px;
+    }
+}
+@media screen and (max-width: 480px) {
+    main {
+        gap: 50px;
+    }
+    h1, h2 {
+        font-size: 28px;
+        line-height: 28px;
+    }
+    h4 {
+        font-size: 16px;
+        line-height: 16px;
+    }
+    p, h5, li, a {
+        font-size: 12px;
+        line-height: 12px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .intro-h span:nth-child(2) {
+        display: none;
+    }
+    .intro-h {
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 420px) {
+    .footer-content {
+        padding: 20px 40px;
+    }
+}
+@media screen and (max-width: 325px) {
+    .img-sd, .img-smp, .img-smk {
+        width: 30px;
+        height: 30px;
+    }
+}
+@media screen and (max-width: 280px) {
+    body {
+        position: absolute;
+    }
+    .img-sd, .img-smp, .img-smk {
+        display: none;
+    }
+    .sd, .smp, .smk {
+        padding: 20px;
+    }
+}
+
